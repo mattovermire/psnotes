@@ -1,0 +1,11 @@
+Get-Command (show all commands and functions. also gets lots of other useful info)
+Get-Help -Full (show full help)
+Get-Help -ShowWindow (show help in a separate window)
+Get-Help about_* (help for built-in features)
+Get-PSProvider (shows available providers)
+Get-Verb (shows MS-allowed verbs for cmdlets)
+Show-Command (dialog for graphically filling in params for a command)
+$scriptBlock = { Get-ChildItem C:; Get-ChildItem D: }
+plain parens executes first and the result gets substituted in place
+  - Only use $() when doing subst inside quotation marks
+
